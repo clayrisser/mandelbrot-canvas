@@ -1,0 +1,9 @@
+{
+  "extends": ["jam"],
+  "rules": {
+    "react/no-string-refs": "off"
+  },
+  "globals": {
+    "document": true
+  }
+}
