@@ -33,12 +33,14 @@
   },
   "scripts": {
     "build": "npm run test && babel src -d lib",
+    "build:example": "NODE_ENV=production parcel build example/index.html",
     "clean": "git clean -fXd -e \\!node_modules -e \\!node_modules/**/*",
     "clean:purge": "git clean -fXd",
     "format": "prettier --write ./src/**/*.js",
     "lint": "npm run format && eslint ./",
     "lint:fix": "npm run format && eslint --fix ./",
     "prepublish": "npm run build",
+    "publish:example": "yarn add build:example && github-pages -r codejamninja/mandelbrot-canvas dist",
     "start": "parcel example/index.html",
     "test": "npm run lint"
   },
@@ -60,6 +62,7 @@
     "eslint-config-jam": "^0.1.6",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.12.1",
+    "github-pages": "^3.0.2",
     "parcel-bundler": "^1.11.0",
     "yo": "^2.0.5"
   },
