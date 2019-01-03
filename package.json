@@ -40,7 +40,7 @@
     "lint": "npm run format && eslint ./",
     "lint:fix": "npm run format && eslint --fix ./",
     "prepublish": "npm run build",
-    "publish:example": "yarn add build:example && github-pages -r codejamninja/mandelbrot-canvas dist",
+    "publish:example": "npm run build:example && github-pages -r codejamninja/mandelbrot-canvas dist",
     "start": "parcel example/index.html",
     "test": "npm run lint"
   },
