@@ -6,6 +6,13 @@
 
 Please ★ this repo if you found it useful ★ ★ ★
 
+![download](https://user-images.githubusercontent.com/6234038/50661215-049e2800-0f68-11e9-982c-a2ab37fea8ac.png)
+
+
+## Demo
+
+You can view a live demo [HERE](https://codejamninja.github.io/mandelbrot-canvas).
+
 
 ## Features
 
