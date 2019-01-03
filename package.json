@@ -33,7 +33,7 @@
   },
   "scripts": {
     "build": "npm run test && babel src -d lib",
-    "build:example": "NODE_ENV=production parcel build example/index.html",
+    "build:example": "NODE_ENV=production parcel build example/index.html --public-url .",
     "clean": "git clean -fXd -e \\!node_modules -e \\!node_modules/**/*",
     "clean:purge": "git clean -fXd",
     "format": "prettier --write ./src/**/*.js",
