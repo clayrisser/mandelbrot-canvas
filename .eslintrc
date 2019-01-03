@@ -1,6 +1,7 @@
 {
   "extends": ["jam"],
   "rules": {
+    "react/jsx-no-bind": "off",
     "react/no-string-refs": "off"
   },
   "globals": {

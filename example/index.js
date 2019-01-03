@@ -1,3 +1,4 @@
+import 'carbon-components/css/carbon-components.css';
 import React from 'react';
 import { render } from 'react-dom';
 import App from './App';
